@@ -75,7 +75,7 @@ jupyter lab
 ```
 Run the following command in the notebook or just conda install the package:
 ```
-!pip install moviepy==1.0.2
+!pip install moviepy==1.0.2 or conda install moviepy=1.0.2
 ```
 Follow the commands below to use fast-style-transfer
 ## Documentation
@@ -114,6 +114,7 @@ You will need the following to run the above:
   - A decent GPU
   - All the required NVIDIA software to run TF on a GPU (cuda, etc)
 - ffmpeg 3.1.3 if you want to stylize video
+- conda install -c menpo ffmpeg
 
 ### Citation
 ```
